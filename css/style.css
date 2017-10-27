@@ -46,32 +46,58 @@ body {
 .search_form button:active {
 	background:#B5BEC7;
 }
-.wraper {
-	margin-top:40px;
-	display:flex;
-	justify-content:center;
-}
-.page_wraper {
-	height:500px;
-	margin-right:10px;
-	display:inline-block;
-	background:red;
-	width:20%;
-	float:left;
-}
-.test {
-	margin-top:30px;
-	width:100%;
-}
 #wraper {
-	position: relative;
-	left:50%;
-	margin-left:-45%;
-	margin-top:40px;
-	width:90%;
-	background:red;
-	height:400px;
+	display:flex;
+	direction:row;
+	justify-content: center;
+	flex-wrap:wrap;
 }
 .wraper_content {
-	width:;
+	margin-top: 40px;
+	position: relative;
+	min-width:300px;
+	height:450px;
+	background: red;
+	margin-right:30px;
+	margin-left:30px;
 }
+.wraper_content ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+.title {
+	height: 180px;
+	line-height:180px;	
+	font-weight:bold;
+}
+.chanel {
+	background:blue;
+	height:60px;
+	line-height:60px;	
+
+}
+.date {
+	background:yellow;
+	height:60px;
+	line-height:60px;
+
+}
+.watches {
+	color:white;
+	background:black;
+	height:60px;
+	vertical-align: middle;
+	line-height:60px;
+}
+.description {
+	line-height:90px;
+}
+.title, .chanel,.date, .watches,.description {
+	text-align:center;	
+	font-size:1.3em;
+}
+.title a{
+	color:white;
+}
+
